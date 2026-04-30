@@ -2,7 +2,7 @@ import os
 import csv
 
 
-# Task A1
+
 def check_files():
     print("Checking file...")
 
@@ -23,7 +23,7 @@ def check_files():
     return True
 
 
-# Task A1
+
 def load_data(filename):
     print("Loading data...")
 
@@ -46,7 +46,7 @@ def load_data(filename):
         return []
 
 
-# Task A1
+
 def preview_data(students, n=5):
     print("First", n, "rows:")
     print("-----------------------------")
@@ -63,7 +63,7 @@ def preview_data(students, n=5):
     print("-----------------------------")
 
 
-# Task A2
+
 def analyse_gpa(students):
     gpas = []
     high = 0
@@ -100,7 +100,7 @@ def analyse_gpa(students):
     return result
 
 
-# Task A3
+
 def lambda_part(students):
     print("Lambda / Map / Filter")
     print("-----------------------------")
@@ -117,7 +117,7 @@ def lambda_part(students):
     print("-----------------------------")
 
 
-# MAIN
+
 ok = check_files()
 
 if ok:
