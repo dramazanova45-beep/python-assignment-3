@@ -3,9 +3,7 @@ import csv
 import json
 
 
-# =========================
-# Task 1 — FileManager
-# =========================
+
 class FileManager:
     def __init__(self, filename):
         self.filename = filename
@@ -30,9 +28,7 @@ class FileManager:
             print("Output folder already exists")
 
 
-# =========================
-# Task 2 — DataLoader
-# =========================
+
 class DataLoader:
     def __init__(self, filename):
         self.filename = filename
@@ -74,9 +70,6 @@ class DataLoader:
         print("----------------")
 
 
-# =========================
-# Task 3 — DataAnalyser
-# =========================
 class DataAnalyser:
     def __init__(self, students):
         self.students = students
@@ -120,9 +113,7 @@ class DataAnalyser:
         print("====================")
 
 
-# =========================
-# Task 4 — ResultSaver
-# =========================
+
 class ResultSaver:
     def __init__(self, result):
         self.result = result
@@ -139,9 +130,7 @@ class ResultSaver:
             print("Error saving file")
 
 
-# =========================
-# Task 5 — MAIN
-# =========================
+
 
 fm = FileManager("students.csv")
 
