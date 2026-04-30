@@ -128,5 +128,5 @@ if ok:
         analyse_gpa(students)
         lambda_part(students)
 
-# Task A4 test
+
 load_data("wrong_file.csv")
